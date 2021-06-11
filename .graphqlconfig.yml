@@ -1,0 +1,26 @@
+projects:
+  appablebody:
+    schemaPath: amplify/backend/api/appablebody/build/schema.graphql
+    includes:
+      - src/graphql/**/*.js
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: javascript
+        generatedFileName: ''
+        docsFilePath: src/graphql
+  ablebodyapp:
+    schemaPath: 'C:/@pwa/ableBodyApp/graphql/schema.json'
+    includes:
+      - src/graphql/**/*.js
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: javascript
+        generatedFileName: ''
+        docsFilePath: src/graphql
+extensions:
+  amplify:
+    version: 3
