@@ -78,3 +78,4 @@ Amplify.configure(config)
 
 
 //export default withAuthenticator(App);
+export default App;
